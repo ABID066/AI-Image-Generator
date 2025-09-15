@@ -1,5 +1,7 @@
 # AI Studio - Image Generation Application
 
+🌐 **Live Demo**: [https://ai-image-generator-abid.vercel.app/](https://ai-image-generator-abid.vercel.app/)
+
 AI Studio is a modern web application built with React and Vite that enables users to generate, manage, and save AI-generated images. The application features a clean, intuitive interface with real-time image generation capabilities.
 
 ## Features
