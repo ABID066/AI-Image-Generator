@@ -21,7 +21,7 @@ AI Studio is a modern web application built with React and Vite that enables use
 
 ```
 src/
-├── Components/       # Reusable UI components
+├── Components/      # Reusable UI components
 ├── Context/         # React Context definitions
 ├── Hooks/           # Custom React hooks
 ├── Pages/           # Main application pages
