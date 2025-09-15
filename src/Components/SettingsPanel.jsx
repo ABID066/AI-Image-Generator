@@ -25,7 +25,7 @@ const SettingsPanel = () => {
 
                 {/* Model Dropdown */}
                 <div>
-                    <label htmlFor="model" className="block text-sm font-medium text-zinc-700 mb-1">
+                    <label htmlFor="model" className="block text-sm font-medium text-zinc-400 mb-1">
                         Model
                     </label>
                     <select
@@ -48,7 +48,7 @@ const SettingsPanel = () => {
 
                 {/* Seed Input */}
                 <div>
-                    <label htmlFor="seed" className="block text-sm font-medium text-zinc-700 mb-1">
+                    <label htmlFor="seed" className="block text-sm font-medium text-zinc-400 mb-1">
                         Seed (for reproducible results)
                     </label>
                     <div className="relative flex items-center">
@@ -69,7 +69,7 @@ const SettingsPanel = () => {
 
                 {/* Width Input */}
                 <div>
-                    <label htmlFor="width" className="block text-sm font-medium text-zinc-700 mb-1">
+                    <label htmlFor="width" className="block text-sm font-medium text-zinc-400 mb-1">
                         Width
                     </label>
                     <input
@@ -83,7 +83,7 @@ const SettingsPanel = () => {
 
                 {/* Height Input */}
                 <div>
-                    <label htmlFor="height" className="block text-sm font-medium text-zinc-700 mb-1">
+                    <label htmlFor="height" className="block text-sm font-medium text-zinc-400 mb-1">
                         Height
                     </label>
                     <input
@@ -97,7 +97,7 @@ const SettingsPanel = () => {
 
                 {/* Aspect Ratio Presets */}
                 <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-1">Aspect Ratio Presets</label>
+                    <label className="block text-sm font-medium text-zinc-400 mb-1">Aspect Ratio Presets</label>
                     <div className="flex flex-wrap gap-2">
                         {["1:1", "16:9", "4:3", "3:2"].map((ratio) => (
                             <button
